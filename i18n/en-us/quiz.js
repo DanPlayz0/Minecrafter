@@ -138,7 +138,7 @@ module.exports = [
     options: [
       { text: "Craft and Mine", answer: false },
       { text: "Into the Blocks", answer: false },
-      { text: "Cave Game", answer: false },
+      { text: "Cave Game", answer: true },
       { text: "Cave Craft", answer: false },
     ],
   },
@@ -194,7 +194,7 @@ module.exports = [
     image: "https://discord.mx/PRYbrMQUy8.png",
     options: [
       { text: "Iron Bowl", answer: false },
-      { text: "Bucket", answer: false },
+      { text: "Bucket", answer: true },
       { text: "Compass", answer: false },
       { text: "Hopper", answer: false },
     ],
@@ -325,12 +325,12 @@ module.exports = [
     ],
   },
   {
-    question: "How can you make a infinite lava source?",
+    question: "How can you make a infinite lava source? (Pre 1.17)",
     options: [
       { text: "Same as water", answer: false },
       { text: "4 by 4", answer: false },
       { text: "2 by 2", answer: false },
-      { text: "Not possible", answer: false },
+      { text: "Not possible", answer: true },
     ],
   },
   {
@@ -343,10 +343,10 @@ module.exports = [
     ],
   },
   {
-    question: "What is not a Minecraft tranportation method?",
+    question: "What is not a Minecraft transportation method?",
     options: [
       { text: "Carrot on a stick", answer: false },
-      { text: "Boat", answer: false },
+      { text: "Train", answer: true },
       { text: "Minecart", answer: false },
       { text: "Boat", answer: false },
     ],
@@ -361,10 +361,62 @@ module.exports = [
   {
     question: "What item would drop if you killed Notch alongside his inventory?",
     options: [
-      { text: "Apple", answer: true },
-      { text: "Easter egg", answer: false },
+      { text: "Easter Egg", answer: false },
       { text: "Nametag", answer: false },
-      { text: "Green apple", answer: false },
+      { text: "Apple", answer: true },
+      { text: "Green Apple", answer: false },
     ],
+  },
+  {
+    question: "Do endermites take damage on soul sand?",
+    options: [
+      { text: "Yes", answer: true },
+      { text: "No", answer: false },
+    ]
+  },
+  {
+    question: "How many types of trees are there?",
+    options: [
+      { text: "5", answer: false },
+      { text: "8", answer: true },
+      { text: "3", answer: false },
+      { text: "10", answer: false },
+    ],
+  },
+  {
+    question: "How many colors exist in Minecraft?",
+    options: [
+      { text: "14", answer: false },
+      { text: "16", answer: true },
+      { text: "8", answer: false },
+      { text: "12", answer: false },
+    ],
+  },
+  {
+    question: "What biome can hostile mobs not spawn in?",
+    options: [
+      { text: "Mushroom", answer: false },
+      { text: "16", answer: false },
+      { text: "8", answer: true },
+      { text: "12", answer: true },
+    ],
+  },
+  {
+    question: "How many hearts does the Warden have?",
+    options: [
+      { text: "250", answer: true },
+      { text: "300", answer: false },
+      { text: "150", answer: false },
+      { text: "100", answer: false },
+    ]
+  },
+  {
+    question: "How many hearts does the Warden have?",
+    options: [
+      { text: "250", answer: true },
+      { text: "300", answer: false },
+      { text: "150", answer: false },
+      { text: "100", answer: false },
+    ]
   }
 ]
