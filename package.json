@@ -1,0 +1,50 @@
+{
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.2",
+    "fuse.js": "^6.5.3",
+    "hashids": "^2.2.10",
+    "humanize-duration": "^3.27.1",
+    "ioredis": "^4.28.3",
+    "klaw": "^4.0.1",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^6.1.7"
+  },
+  "name": "minecrafter-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft themed Discord bot with commands such as player skins, name history.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enecs/record.chat.git"
+  },
+  "keywords": [
+    "record",
+    "chat",
+    "saftey"
+  ],
+  "author": "DanPlayz0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enecs/record.chat/issues"
+  },
+  "homepage": "https://github.com/Enecs/record.chat#readme",
+  "_moduleAliases": {
+    "@root": ".",
+    "@website": "./website/",
+    "@commands": "./commands/",
+    "@events": "./events/",
+    "@handlers": "./handlers/",
+    "@structures": "./structures/"
+  }
+}
