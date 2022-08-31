@@ -15,7 +15,7 @@ module.exports = {
   },
   
   // Support server. (For the "dashboard.example/join")
-  supportServerInvite: "https://discord.gg/KkS6yP8",
+  supportServerInvite: "https://discord.gg/p3AEs8WNzP",//"https://discord.gg/KkS6yP8",
   
   // Domain (Used for Auth, RestApi & Links)
   domain: "https://minecrafter.enx.so",
