@@ -18,6 +18,7 @@ module.exports = class extends Command {
   }
 
   async run(ctx) {
+    return ctx.sendMsg(new ctx.MessageEmbed().setColor(ctx.client.color.primary).setDescription(`This command is deprecated as Mojang has discontinued public access to the name history endpoint.\nRead more about this [here](https://help.minecraft.net/hc/en-us/articles/8969841895693-Username-History-API-Removal-FAQ-)`))
     const player = ctx.args.getString('player');
     const data = await ctx.client.fetch.get(`https://japi.rest/minecraft/v1/history/${player}`).then(m => m.data).catch(err => ({ data: err.response.data }));
     if(data.fetchError) return ctx.sendMsg(new ctx.MessageEmbed().setColor(ctx.client.color.primary).setDescription('An error occured while trying to fetch that player.'));
