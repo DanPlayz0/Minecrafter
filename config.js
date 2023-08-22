@@ -5,7 +5,7 @@ module.exports = {
   // Bot Administators (Access to Admin Dash & System Commands)
   admins: ['209796601357533184', '229285505693515776'],
   
-  // Database Crap (MongoDB & Redis)
+  // Database Crap (MongoDB)
   mongo_uri: process.env.MONGODB_URI,
   
   // Support server. (For the "dashboard.example/join")

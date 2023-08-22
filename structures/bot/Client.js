@@ -31,7 +31,6 @@ module.exports = class BotClient extends Discord.Client {
     // Miscelaneous
     this.services = {};
     this.database = new (require('@structures/database/Database.js'))(this);
-    this.redis = new (require('ioredis'))(`redis://${this.config.redis.host}:${this.config.redis.port}`);
     this.webhooks = new (require('@structures/webhooks/WebhookManager.js'))(this);
     this.loader = new (require('./Loader.js'))(this);
 
