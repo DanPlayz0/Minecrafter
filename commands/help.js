@@ -20,8 +20,6 @@ module.exports = class extends Command {
     const links = [
       {name: 'Invite', link: `${ctx.client.config.domain}/api/invite`},
       {name: 'Support', link: `${ctx.client.config.supportServerInvite}`},
-      {name: 'Terms', link: `${ctx.client.config.links.terms}`},
-      {name: 'Privacy', link: `${ctx.client.config.links.privacy}`},
     ];
 
     ctx.sendMsg(new ctx.MessageEmbed()
